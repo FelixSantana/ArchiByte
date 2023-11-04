@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Establece la altura del fondo a la altura completa de la ventana */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    background: linear-gradient(to top right, #80cbc4, #e1bee7, #80ddea, #d1c4e9);
+}
+.titulo{
+    position: absolute;
+    margin-top: -30%;
+}
+.titulo h1{
+    font-size: 5em;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+.flecha{
+    position: absolute;
+    margin-top: -42%;
+    margin-left: -95%;
+}
+.flecha a .fa-solid:hover{
+    color: #000 !important;
+}
+.navbar{
+    position: absolute;
+    margin-top: -15%;
+}
+.form-control{
+    height: 50px !important;
+    width: 600px !important;
+    color: #969c9c77;
+}
+
+.transparent-input {
+    background: #ffffff5e;
+    border-radius: 10px;
+    border: 0.5px solid #ffffff5e; /* Agregar una línea de fondo opcional */
+    color: #000; /* Color del texto en el campo de entrada */
+}
+/*para cuando se este escribiendo o se seleccione la barra de busqueda no salgan los bordes negros*/
+input:focus{
+    outline: none;
+}
+.btn{
+    height: 50px !important;
+    width: 40px !important;
+    background-color: #ffffff00;
+    border: none;
+    cursor: pointer;
+}
